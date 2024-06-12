@@ -1,0 +1,592 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5f1ef;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px 20px 0 20px;
+}
+
+.social-links img {
+    width: 50px;
+    
+    margin: 20px;
+    cursor: pointer;
+}
+
+.social-links {
+    text-align: center;
+}
+
+
+
+
+.container .heading {
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.container .heading h3 {
+    font-size: 3em;
+    font-weight: 400;
+    border-bottom: 3px solid #1b5e20;
+    
+}
+
+.container .heading h3 span {
+    color: #1b5e20;
+    font-weight: 600; 
+}
+
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.container .box .row1 {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .row1 img {
+    width: 100%;
+    padding-bottom: 10px;
+    animation: fadeInUp 2s ease; 
+}
+
+.container .box .row1 img:hover{
+    opacity: 0.5;
+    transition: 0.2s ease;
+    
+}
+
+.container .btn {
+    margin: 40px 0 70px 0;
+    background: #1b5e20;
+    padding: 15px 40px ;
+    border-radius: 5px;
+}
+
+
+.container .btn a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #f5f5f5;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.container .heading a {
+    text-decoration: none;
+    color: black;
+}
+.container .heading a:hover {
+    
+    color: #f06292;
+}
+
+.container .btn a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #f06292;
+    font-weight: bolder;
+    
+}
+
+/* gallery css */
+.gallery-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+}
+
+.gallery-content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeInRight 2s ease;
+}
+
+.gallery-content-section .gallery-card {
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.gallery-content-section .gallery-card:hover {
+    transform: scale(1.2);
+}
+
+.gallery-content-section .gallery-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery-content-section .gallery-card h2 {
+    margin: 15px 0px;
+    font-size: 28px;
+    color: #f06292;
+}
+
+.gallery-content-section .gallery-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.galleryh1 {
+    text-align: center;
+    font-size: 55px;
+    color: #1b5e20;
+}
+
+/* home css */
+
+.hero {
+    background-color: #f5f1ef;
+    overflow: hidden;
+}
+
+.home-heading h1 {
+    color: #1b5e20;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: -30px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: rgb(39, 39, 39);
+}
+
+.hero-btn {
+    display: inline-block;
+    background-color: #1b5e20;
+    margin-top: -20px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease; 
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.hero-btn a {
+    
+    text-decoration: none;
+    background-color: transparent;
+    color: #f5f5f5;
+}
+.hero-btn a:hover {
+    
+    color: #f06292;
+}
+.container_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
+.hero-content {
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+    animation: fadeInUp 2s ease;
+}
+.hero-image {
+    flex: 1;
+    width: 600px;
+    margin: auto;
+    animation: fadeInRight 2s ease;
+}
+
+.hero-content h2 {
+    color: #f06292;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.hero img {
+width: 100%;
+height: auto;
+border-radius: 10px;
+}
+
+/* navbar css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f1ef;
+    
+    
+}
+
+.nav-title {
+    background-color: transparent;
+    text-decoration: underline;
+}
+.nav-title a{
+    color: black;
+    
+}
+.nav-title a:hover{
+    color: #f06292;
+}
+.nav-title span{
+    background-color: transparent;
+    color: #1b5e20;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+    
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+    
+    
+    
+}
+
+.navbar-links li a:hover{
+    color: #f06292;
+}
+.nav-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    padding-left: 5px;
+    
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* Pricing css */
+
+.pricing-table {
+    display: flex;
+    flex-direction: row; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    min-height: 100vh; /* Set minimum height as 100% of the viewport height */
+    max-width: 1600px;
+    margin: 0 auto; /* Center the pricing table horizontally */
+    
+    
+}
+
+/* Add this style if you want some space between pricing cards */
+.pricing-card {
+     /* Adjust as needed */
+    flex: 1;
+    max-width: 360px;
+    background-color: #fa7fa8;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #f5f1ef;
+    transition: .3s linear;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    animation: fadeInRight 2s ease;
+
+}
+
+.pricing-card-header {
+    background-color: #1b5e20;
+    display: inline-block;
+    color: #f5f1ef;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+
+}
+
+.pricing-card li {
+    font-size: 20px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    list-style-type: none; /* Add this line to remove bullets */
+}
+
+
+.pricingh1 {
+    margin-top: 50px;
+    margin-bottom: -100px;
+    text-align: center;
+    font-size: 55px;
+    color: #1b5e20;
+}
+
+hr {
+    margin: 2rem;
+}
+
+
+
+
+
+.pricing-card li {
+    background-color: #fa7fa8;
+}
+.pricing-card strong {
+    background-color: #fa7fa8;
+}
+.pricing-card sup {
+    background-color: #fa7fa8;
+}
+
+.price {
+    background-color: #fa7fa8;
+    font-size: 70px;
+    color: #f5f1ef;
+    margin: 40px 0;
+    transition: .2s linear;
+}
+
+.price sup, .price span {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .gallery-content-section {
+        flex-direction: column;
+    }
+
+    .pricing-card {
+        flex: 50%;
+        
+    }
+
+    .pricing-card-header {
+        font-size: 10.5px;
+    }
+
+    .price {
+        font-size: 45px;
+    }
+
+    .pricing-card li {
+        font-size: 15px;
+    }
+
+    
+    
+}
+
+
+
+
+@media only screen and (max-width: 769px) {
+    .container .box {
+        flex-direction: column;
+    }
+    .container .box .row1 {
+        width: 100%;
+    }
+    .home-heading h1 {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+
+    .hero {
+        margin: 0px;
+
+    }
+    .container_home {
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px 40px;
+
+    }
+    .hero-content {
+        width: 100%;
+        margin: 35px 0px;
+    }
+    .hero-content h2 {
+        font-size: 30px;
+
+    }
+    .hero-content p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .hero-btn {
+        font-size: 16px;
+        padding: 8px 16px;
+        
+    } 
+    .hero-image {
+        width: 100%;
+    }
+
+    .pricing-card {
+        flex: 50%;
+        
+    }
+
+    .pricing-card-header {
+        font-size: 6px;
+    }
+
+    .price {
+        font-size: 35px;
+    }
+
+    .pricing-card li {
+        font-size: 15px;
+    }
+
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 718px) {
+    .container .heading {
+        width: 100%;
+        
+    }
+    
+    .container .heading h3 {
+        font-size: 2.5em;
+        
+        
+    }
+}
+
+@media only screen and (max-width: 549px) {
+    .toggle-button {
+        display: flex;
+        
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .3rem .7rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .gallery-card {
+        width: 150%;
+        
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .pricingh1 {
+        margin-bottom: -175px;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
